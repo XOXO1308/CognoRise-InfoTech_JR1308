@@ -1,59 +1,55 @@
-# Data Scientist Salaries Report
+# Data Analysis Projects
 
 ## Overview
 
-This repository contains a Power BI report that provides an in-depth analysis of Data Scientist salaries. The report explores various factors influencing salaries, such as experience level, region, industry, and other relevant attributes.
+This repository contains data analysis project reports generated using Power BI and Tableau. Each project is organized into its own folder, containing the dataset, Power BI report, and Tableau workbook used for analysis.
 
-## Report Features
+### Project Structure
 
-- **Decomposition Tree**: Breaks down salary data based on different dimensions to help identify key drivers of salary variations.
-- **Interactive Visualizations**: Includes various interactive elements to allow users to filter and explore the data dynamically.
-- **Tooltips and Annotations**: Provides additional context and highlights important insights within the visualizations.
+1. **[Data Scientist Salaries](#data-scientist-salaries)**
+   - **Power BI Report**: `Data_Scientist_Salaries.pbix`
+   - **Tableau Workbook**: `Data_Scientist_Salaries.twb`
+   - **Dataset**: `Data_Scientist_Salaries.csv`
+
+2. **[Superstore](#superstore)**
+   - **Power BI Report**: `Superstore.pbix`
+   - **Tableau Workbook**: `Superstore.twb`
+   - **Dataset**: `Superstore.csv`
+
+3. **[Top Spotify Songs](#top-spotify-songs)**
+   - **Power BI Report**: `Top_Spotify_Songs.pbix`
+   - **Tableau Workbook**: `Top_Spotify_Songs.twb`
+   - **Dataset**: `Top_Spotify_Songs.csv`
+
+## Project Details
+
+### Data Scientist Salaries
+
+This project explores the salaries of Data Scientists across various regions, experience levels, and other relevant factors. 
+
+- **Power BI Report**: The report includes a decomposition tree to identify key drivers of salary variations and other interactive visualizations.
+- **Tableau Workbook**: The Tableau file offers additional visual insights into the salary data, focusing on geographical and experience-based trends.
+- **Dataset**: Contains raw data on salaries, including features such as region, experience level, and job role.
+
+### Superstore
+
+The Superstore project analyzes sales data to uncover trends and patterns in customer purchases, product categories, and regional sales.
+
+- **Power BI Report**: Features detailed dashboards that highlight sales performance, customer segmentation, and product analysis.
+- **Tableau Workbook**: Provides a different perspective on the data with visualizations focused on sales trends and profitability.
+- **Dataset**: Includes transactional data from a retail superstore, covering product sales, customer demographics, and regional information.
+
+### Top Spotify Songs
+
+This project delves into the top Spotify songs, analyzing attributes such as popularity, genre, and artist trends over time.
+
+- **Power BI Report**: Visualizes the most popular songs, artists, and genres, with insights into the characteristics that make a song popular.
+- **Tableau Workbook**: Focuses on genre trends and artist performance across different time periods.
+- **Dataset**: Contains data on top Spotify songs, including features like track name, artist, genre, popularity score, and release date.
 
 ## How to Use
 
-### Viewing the Report
-
-To view the report:
-1. Download the `.pbix` file from this repository.
-2. Open the file using [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
-
-### Modifying the Report
-
-If you wish to modify or extend the report:
-1. Clone this repository to your local machine.
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/Data-Scientist-Salaries.git
-   ```
-2. Open the `.pbix` file in Power BI Desktop.
-3. Make your changes and save the report.
-
-### Contributing
-
-If you'd like to contribute to this report, please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-   ```bash
-   git checkout -b feature-branch-name
-   ```
-3. Make your changes and commit them with a clear message.
-   ```bash
-   git commit -m "Add new visualization for region-wise salary comparison"
-   ```
-4. Push your branch to GitHub.
-   ```bash
-   git push origin feature-branch-name
-   ```
-5. Open a Pull Request and describe your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgements
-
-This report was developed using the [Power BI](https://powerbi.microsoft.com/) platform. Special thanks to the contributors who provided valuable feedback and insights during the development process.
-
-## Contact
-
-For questions, feedback, or suggestions, feel free to open an issue or reach out directly via https://www.linkedin.com/in/juhi-roshan-b03653191/.
+   git clone https://github.com/yourusername/Data-Analysis-Projects.git
+   cd Data-Analysis-Projects
